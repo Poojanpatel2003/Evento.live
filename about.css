@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+   
+}
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+
+
+.navbar{
+   padding: 1%;
+}
+body h1{
+    color: white;
+}
+.sub-title1{
+    text-align: center;
+    font-size:50px;
+}
+.about_us{
+margin-left: 20%;
+margin-top:2%;
+
+
+}
+
+span{
+    color: aqua;
+}
+.img1{
+    border-radius: 50%;
+ margin-left:23%;
+}
+.about{
+  
+    text-align: justify;
+    background-color:white;
+    padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 38px 6px rgb(49, 180, 189);
+  
+}
+.menu{
+    display: flex;
+  
+}
+
+ul{
+    
+    display:flex;
+  background-color:rgba(19, 19, 19, 0.93);
+padding-left: 12%;
+margin-top: 7%;
+border-radius: 8px;
+
+}
+ul a{
+    margin:4%;
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    transition: transform 0.5s;
+    transition:1.10s;
+    
+}
+ul a:hover{
+    transform: translateY(-5px);
+}
+h4,h5{
+    margin-top: 2%;
+    font-size: 17px;
+}
+.about2{
+       margin-left: 17%;
+    text-align: justify;
+    background-color:rgb(255, 255, 255);
+    padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 38px 6px rgb(49, 180, 189);
+}
+.about3{
+    width:445px;
+    text-align: justify;
+    background-color:rgb(255, 255, 255);
+    padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 38px 6px rgb(49, 180, 189);
+}
+.about4{
+    width:421px;
+    margin-left: 17%;
+    text-align: justify;
+    background-color:rgb(255, 255, 255);
+    padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 38px 6px rgb(49, 180, 189);
+}
+.facebook{
+   background: #1877F2;
+    color: white;
+    font-size: 33px;
+    border-radius: 8px;
+}
+.insta{
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    color: white;
+    border-radius: 8px;
+}
+.whatsapp{
+  background:  #25D366; 
+  border-radius: 9px;
+   
+}
+.linkedin{
+    background: #0077B5; 
+    border-radius: 9px;
+    
+}
+.foot{
+    background-color:#000000;
+
+}
+.foot li{
+    display: inline-block;
+    padding:1%;
+    font-size: 27px;
+    font-weight: 700;
+    cursor: pointer;
+    margin:20px;
+}
+
+.foot ul{
+    text-align: right;
+   
+}
+.foot img{
+    padding-top: 5px;
+    padding-left: 3%;
+    mix-blend-mode: hard-light;
+    
+}
+.foot p{
+padding-right: 3%;
+    float: right;
+    line-height: 80px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+}
+@keyframes slideTop{
+    0%{
+        transform:translateY(100px);
+        opacity:0;
+    }
+    100%{
+        transform:translateY(0px);
+        opacity:1;
+    }
+ }
