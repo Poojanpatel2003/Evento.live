@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="shortcut icon" type="x-icon" href="images\evento logo.png">
+    <title>Registration</title>
+</head>
+<body>
+    <script>
+        
+    </script>
+    <div class="container">
+    <form name="submit-to-google-sheet" method="get" action="registration-form">
+        <h1 class="main_heading">Registration Form</h1>
+        <hr>
+        <h2>Your Information</h2>
+        <p> Name:*<input type="text" name="Name" required></p>
+        
+    <p>Address:* <textarea name="Address" id="address"  cols="50" rows="10"></textarea>
+    </p>
+    <p>Event Name:*<input type="text" name="Event" required></p>
+    <p>Date:*<input type="date" name="Exp_date"></p>
+    <p>Time:*<input type="text" name="Time" required></p>
+   
+    <p>Email:*<input type="email" name="Email" id="email" width="50" height="50"></p>
+<p>Pincode:* <input type="number" name="Pincode" id="pincode"></p>   
+<p> Mobile:* <input type="number"name="Number" id="number"></p> 
+
+<p><input type="submit" value="Submit"></p>
+<span id="msg"></span>
+</form>
+</div>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz7dGhfrUGr0Kz1hhLaeXZ4yhmbRwXQ1rBzW1t5SSV0tVIOhj0U7nbotekBMFbukPM8ng/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const  msg= document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script src="temp.js"></script>
+</body>
+</html>
