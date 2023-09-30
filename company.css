@@ -277,7 +277,7 @@ ul li a:hover{
     font-weight: 13px;
     border-right: 10px;
     border-radius: 20px;
-    background:url(images/evento\ logo.png) no-repeat;
+    background:url(images/logo.png) no-repeat;
     background-position: right;
     mix-blend-mode: hard-light;
     transition: background 0.5s,transform 0.5s;
@@ -326,7 +326,7 @@ ul li a:hover{
     transition: background 0.5s,transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
     1px 1px 40px #012290f7;
-    background:url(images/evento\ logo.png) no-repeat;
+    background:url(images/logo.png) no-repeat;
     background-position: right;
     mix-blend-mode: hard-light;
     transition: background 0.5s,transform 0.5s;
