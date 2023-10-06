@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lobster&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+
+
+}
+html{
+    font-size: 56%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url("images/homee.jpg") no-repeat;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    position:fixed;
+    background-position: center;
+    background-size: cover;
+   
+
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(198, 172, 172);
+}
+section{
+    padding: 9rem ;
+    margin-top: 7rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    padding: 1.2rem 4rem;
+    font-size: 2.0rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    background-color: yellowgreen;
+    box-shadow: rgba(0,0,0,0.4);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+
+
+#searchForm{
+    width:350px;
+    margin-left: 38%;
+    margin-top: 5%;
+
+
+}
+#searchForm select .op{
+    margin-top: 5%;
+}
+#searchForm select {
+    background-color:rgb(0, 0, 0);
+    border-radius: 13px;
+    padding: 7px;
+    margin-top: 5%;
+    
+}
+.search-box{
+    margin: 20rem 0 0 0;
+    color: white;
+    text-align: center;
+    margin-top: 16%;
+}
+.search-box h1{
+    font-size: 7.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-shadow: 1px 1px 10px rgb(253, 162, 6),
+    1px 1px 8px #012290f7;
+    margin-top: -5%;
+
+}
+.search-box p{
+    font-size: 5.8rem;
+    margin: 0.5rem;
+  text-shadow: 1px 1px 10px rgb(253, 162, 6),
+    1px 1px 8px #012290f7;
+
+}
+.btn{
+  background-color: rgb(253, 162, 6);
+  border-radius:13px ;
+  font-weight: 400px;
+}
+.btn:hover{
+    background-color: #8d5114;
+}
+.search-field{
+    width: 40rem;
+    height: 4.9rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3%;
+    text-align: center;
+}
+.menu{
+    position:fixed;
+    width:145px;
+    height:200px;
+    display:flex;
+    align-items:center;
+   margin-left:82%;
+  
+    justify-content:center;
+  }
+  .menu .toggle{
+    position:relative;
+    height:50px;
+    width:50px;
+    background:#fff;
+    border-radius:50%;
+    box-shadow:0 3px 4px rgba(0,0,0,0.15);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#333;
+    font-size:3rem;
+    cursor:pointer;
+    transition:1.25s;
+    margin-right:-145%;
+    z-index:5;
+  }
+  .menu.active .toggle{
+    transform:rotate(360deg);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15),
+      0 0 0 2px #333,
+      0 0 0 8px #fff;
+  }
+  .menu li{
+    position:absolute;
+    left:0;
+  
+    list-style:none;
+    transition:0.5s;
+    transform:rotate(calc(185deg/8 * var(--i)));
+    transform-origin:180px;
+    scale:0;
+    transition-delay: calc(0.05s * var(--i));
+    justify-content: space-between;
+  }
+  .menu.active li{
+    scale:0.67;
+
+  }
+  .menu li a{
+    position:relative;
+    display:flex;
+   transform:rotate(calc(180deg/-8 * var(--i)));
+    width:60px;
+    height:60px;
+    background-color:#FFF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    font-size:2.95rem;
+    color:var(--clr);
+     box-shadow:0 3px 4px rgba(0,0,0,0.15);
+    transition:0.5s;
+
+    
+  }
+  .menu li:hover a{
+    font-size:3.2rem;
+    box-shadow:0 0 0 2px var(--clr),
+      0 0 0 6px #fff;
+  }
+  .foot{
+    background-color:#000000;
+    margin-top:4.3% ;
+  }
+  .foot li{
+    display: inline-block;
+    padding:1%;
+    font-size: 27px;
+    font-weight: 700;
+    cursor: pointer;
+    margin:20px;
+  }
+  
+  .foot ul{
+    text-align: right;
+   
+  }
+  .foot img{
+    padding-top: 5px;
+    padding-left: 3%;
+    mix-blend-mode: hard-light;
+    
+  }
+  .foot p{
+    color: #fff;
+  padding-right: 3%;
+    float: right;
+    line-height: 80px;
+    font-size: 28px;
+    font-weight: 700px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Satisfy', cursive;
+    text-decoration: none;
+  }
+@media screen and (max-width:600px){
+    .search-box h1{
+        margin-top: 24%;
+        font-size: 27px;
+    }
+.search-box p{
+  font-size: 28px;
+  margin-bottom: -5.5%;
+}
+.search-box{
+  width:150%;
+  margin-left: -25%;
+}
+#searchForm{
+margin: 0%;
+
+}
+.search-field{
+  width: 90%;
+  margin-left: -13%;
+  margin-bottom:-1%;
+  
+}
+.btn{
+  margin-left: -15%;
+}
+.menu{
+  margin-top: 6.5%;
+  margin-left: 20%;
+}
+footer{
+  margin-top: 26%;
+}
+
+.foot img{
+ width:130px;
+ height: 60px;
+  
+}
+.foot p{
+
+  font-size: 15px;
+  line-height: 68px;
+  
+}
+.menu .toggle{
+ 
+  height:40px;
+  width:40px;
+ 
+}
+
+.menu.active li{
+  scale:0.57;
+}
+
+
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="shortcut icon" type="x-icon" href="images\logo.png">
+    <title>EVENTO</title>
+</head>
+<body>
+
+    <section id="home" class="home" home> 
+       
+            <div class="search-box">
+                <h1>Turning Dreams into events:</h1>
+                <p>Your Imagination, Our creation!  </p>
+              <!-- <select type="text" class="search-field" id="mytext">
+                    
+                    <option value="Wedding Event">Wedding Event</option>
+                    <option value="Sport Event">Sport Event</option>
+                    <option value="Engagement Event">Engagement Event</option>
+                    <option value="Birthday Celebration Event">Birthday Celebration Event</option>                    
+                </select> -->
+
+                <form id="searchForm" onsubmit="return validateForm()">
+                    <select type="text" class="search-field" id="search-select" onchange="handleSelectChange()">
+                      <option class="op" disabled selected >select Event Type</option>
+                      <option class="op" value="wedding">Wedding Event</option>
+                      <option class="op" value="sports">Sports Event</option>
+                      <option class="op" value="birthday">Birthday Celebration</option>
+                      <option class="op" value="company">Company-meeting</option>
+                    
+                    </select>
+                    <select type="text" class="search-field">
+            
+                        <option selected="Gujarat">Gujarat</option>
+    </select>
+                        <button onclick="validateSelect()" type="submit" class="btn" >Search</button>
+                  </form>
+               
+                  <script>
+                    function validateForm() {
+                        var selectElement = document.getElementById("search-select");
+                        var selectedOption = selectElement.options[selectElement.selectedIndex];
+                        
+                        if (selectedOption.disabled) {
+                            alert("Please select Event Type");
+                            return false; // Prevent form submission
+                        }
+                    }
+                </script>
+       
+            <script>
+                document.getElementById("searchForm").addEventListener("submit", function (event) {
+                  event.preventDefault(); 
+                  const paymentselect = document.getElementById("search-select").value;
+                  window.location.href = paymentselect + ".html";
+                });
+              </script>
+            </div>        
+            <div class="menu">
+                <div class="toggle">
+                    <ion-icon name="cog-outline"></ion-icon>
+                  </div>
+                
+                    <li style="--i:-0.88;--clr:#1877f2">
+                    <a href="https://www.facebook.com/poojan.patel.12979?mibextid=ZbWKwL"><ion-icon name="logo-facebook"></ion-icon></a>
+                  </li>
+                  <li style="--i:0.29;--clr:#25d366">
+                    <a href="https://wa.me/+919722379175"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                  </li>
+               
+                  <li style="--i:1.48;--clr:#c32aa3">
+                    <a href="https://instagram.com/poojan_patel_01?igshid=OGQ5ZDc2ODk2ZA=="><ion-icon name="logo-instagram"></ion-icon></a>
+                    </li>
+                  <li style="--i:2.64;--clr:#1da1f2">
+                    <a href="about.html"><i class="fa fa-users" aria-hidden="true"></i></a>
+                </li>
+                  <li style="--i:3.80;--clr:#1b1e21">
+                    <a href="tel:9722379175"><i class="fa fa-phone-square" style="color:green"></i></a>
+                  </li>
+                 
+              </div>
+              <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script>
+              <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
+    </section>
+   
+    <style>
+	@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+*, *:afater, *:before {
+  box-sizing: border-box;
+}
+    .clock {
+      --clock-size: 360px;
+      width: var(--clock-size);
+      height: var(--clock-size);
+      position: fixed;
+      inset: 0;
+      
+      border-radius: 50%;
+    }
+
+    .spike {
+      position: absolute;
+      width: 8px;
+      height: 1px;
+      background: #fff9;
+      line-height: 20px;
+      transform-origin: 50%;
+      z-index: 5;
+      inset: 0;
+      margin: auto;
+      font-style: normal;
+      transform: rotate(var(--rotate)) translateX(var(--dail-size));
+    }
+    .spike:nth-child(5n+1) {
+      box-shadow: -7px 0 #fff9;
+    }
+    .spike:nth-child(5n+1):after {
+      content: attr(data-i);
+      position: absolute;
+      right: 22px;
+      top: -10px;
+      transition: 1s linear;
+      transform: rotate(calc( var(--dRotate) - var(--rotate)));
+    }
+    
+    .seconds {
+      --dRotate: 0deg;
+      --dail-size: calc((var(--clock-size)/ 2) - 8px);
+      font-weight: 800;
+      font-size: 18px;
+      transform: rotate(calc( -1 * var(--dRotate)));
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      color: #f6f5f5;
+      transition: 1s linear;
+    }
+    
+    .minutes {
+      --dail-size: calc((var(--clock-size)/ 2) - 65px);
+      font-size: 16px;
+      transform: rotate(calc( -1 * var(--dRotate)));
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      color: #f6f5f5;
+      transition: 1s linear;
+    }
+    
+    .stop-anim {
+      transition: 0s linear;
+    }
+    .stop-anim .spike:after {
+      transition: 0s linear !important;
+    }
+    
+    .hour {
+      font-size: 70px;
+      font-weight: 900;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      color: #f6f5f5;
+      transform: translate(-50%, -50%);
+    }
+    
+    .minute {
+      font-size: 36px;
+      font-weight: 900;
+      position: absolute;
+      background: #f6f5f5;
+      z-index: 10;
+      color: #fdfdfd;
+      background-color: transparent;
+      right: calc(var(--clock-size)/ 4.5);
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .minute:after {
+      content: "";
+      position: absolute;
+      border: 2px solid #fff;
+      border-right: none;
+      height: 50px;
+      left: -10px;
+      top: 50%;
+      border-radius: 40px 0 0 40px;
+      width: calc(var(--clock-size)/ 2.75);
+      transform: translatey(-50%);
+    }
+    @media screen and (max-width:600px){
+      .clock{
+        --clock-size:200px;
+
+      }
+      .spike {
+    
+        width: 15px;
+        height: 1px;
+
+        line-height: 115px;
+        transform-origin: 50%;
+        z-index: 5;
+        inset: 0;
+        margin: auto;
+        font-style: normal;
+        transform: rotate(var(--rotate)) translateX(var(--dail-size));
+      }
+      .spike:nth-child(5n+1) {
+        box-shadow: -7px 0 #fff9;
+      }
+      .spike:nth-child(5n+1):after {
+        content: attr(data-i);
+        position: absolute;
+        right: 20px;
+        top: -10px;
+        transition: 1s linear;
+        transform: rotate(calc( var(--dRotate) - var(--rotate)));
+      }
+    .seconds{
+      font-size: 15px;
+      
+    }
+    .minutes {
+      font-size: 18px;
+      --dail-size: calc((var(--clock-size)/ 2) - 65px);
+  
+      transform: rotate(calc( -1 * var(--dRotate)));
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      color: #f6f5f5;
+      transition: 1s linear;
+   
+    }
+    .minute{
+      font-size: 27px;
+    }
+    .hour{
+      font-size: 35px;
+    }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <second class="clock">
+      <div class="seconds"></div>
+      <div class="minutes"></div>
+      <div class="minute">44</div>
+      <div class="hour"></div>
+    </second>
+    
+      <script>
+      const seconds = document.querySelector('.seconds');
+    const minutes = document.querySelector('.minutes');
+    const minute = document.querySelector('.minute');
+    const hour = document.querySelector('.hour');
+    
+    // Create spikes
+    for(let s = 0; s < 60 ; s++){
+      let mSpikeEl = document.createElement('i');
+      let sSpikeEl = document.createElement('i');
+      mSpikeEl.className = 'spike'
+      sSpikeEl.className = 'spike'
+      mSpikeEl.style = `--rotate:${6 * s}deg`;
+      sSpikeEl.style = `--rotate:${6 * s}deg`;
+      mSpikeEl.setAttribute('data-i', s);
+      sSpikeEl.setAttribute('data-i', s);
+    
+      seconds.append(sSpikeEl);
+      minutes.append(mSpikeEl);
+    }
+    
+    function getTime() {
+        let date = new Date(),
+        s  = date.getSeconds() ,
+        m  = date.getMinutes();
+      
+        hour.textContent = date.getHours();
+        minute.textContent = m;
+      
+    
+        minutes.style = `--dRotate:${6 * m}deg`;
+    
+        if(s == 0){
+          seconds.classList.add('stop-anim')
+        } else{
+          seconds.classList.remove('stop-anim')
+        }
+        if(m == 0){
+          minutes.classList.add('stop-anim')
+        } else{
+          minutes.classList.remove('stop-anim')
+        }
+        
+          seconds.style = `--dRotate:${6 * s}deg`;
+    }
+    
+    setInterval(getTime, 1000);
+    getTime();
+      </script>
+<div>
+
+      <footer>
+  
+        <div class="foot">
+      
+           <img src="images\evento.png" width="250px" height="80px">
+           <p>Copyright <span>© </span>2023 Evento.live</p>
+           <hr>
+        </div>
+      </footer>
+</div>
+</body>
+
+</html>
