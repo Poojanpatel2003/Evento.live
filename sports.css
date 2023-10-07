@@ -607,9 +607,8 @@ padding-right: 3%;
         width:35px;        
       }
       .menu li{
-        position:fixed;
-        left:0;
-        margin-left: 40%;
+        
+        margin-left: -370%;
       }
       .menu.active li{
         scale:0.57;
