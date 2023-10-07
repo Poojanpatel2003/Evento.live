@@ -607,8 +607,8 @@ padding-right: 3%;
         width:35px;        
       }
       .menu li{
-        
-        margin-left: -370%;
+        position:absolute;
+        margin-left: -360%;
       }
       .menu.active li{
         scale:0.57;
