@@ -80,3 +80,17 @@ input[type="submit"]:hover{
 form h1,h2,p{
     color: white;
 }
+@media screen and (max-width:600px){
+    .container{
+        width:132%;
+        margin-top: -8%;
+        margin-left: -16%;
+        margin-bottom: -8%;
+    }
+    form .main_heading{
+        font-size: 28px;
+    }
+    form h2{
+        font-size: 20px;
+    }
+}
