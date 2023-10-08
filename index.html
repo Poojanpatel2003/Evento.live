@@ -29,7 +29,7 @@
                 </select> -->
 
                 <form id="searchForm" onsubmit="return validateForm()">
-                    <select type="text" class="search-field" id="search-select" onchange="handleSelectChange()">
+                    <select type="text" class="search-field" id="search-select" name="event" onchange="handleSelectChange()">
                       <option class="op" disabled selected >select Event Type</option>
                       <option class="op" value="wedding">Wedding Event</option>
                       <option class="op" value="sports">Sports Event</option>
@@ -41,7 +41,7 @@
             
                         <option selected="Gujarat">Gujarat</option>
     </select>
-                        <button onclick="validateSelect()" type="submit" class="btn" >Search</button>
+                        <button onclick="validateSelect()" type="submit" name="search" class="btn" >Search</button>
                   </form>
                
                   <script>
