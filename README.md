@@ -54,3 +54,13 @@ To run the website locally, you'll need a web server. You can use a tool like [L
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Poojanpatel2003/Evento.live.git
+   
+
+2. **Open the repository in Visual Studio Code.**
+   
+   
+3. **Use a web server to serve project locally.**
+  
+
+
+ 
