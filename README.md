@@ -69,4 +69,9 @@ To run the website locally, you'll need a web server. You can use a tool like [L
 
 For a detailed explanation of this website and its deployment using Azure, watch the video [here](https://youtube.com).
 
+
+ ## Team(Future Ready Talent)
+
+ 1.Poojan Patel 
+    email: [poojanpatel1595@gmail.com](mailto:poojanpatel1595@gmail.com).
  
