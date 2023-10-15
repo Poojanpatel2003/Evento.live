@@ -20,7 +20,7 @@ This website provides information about events and allows users to register for 
 ## Azure Resources Screenshots
 
 ### Azure Static Web App
-![Azure Static Web App Screenshot]([http://evento-ccerfqaegthphscc.z01.azurefd.net/images/static.png](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/static.png));
+![Azure Static Web App Screenshot](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/static.png);
 
 ### Azure Storage Account
 
