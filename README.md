@@ -72,7 +72,7 @@ For a detailed explanation of this website and its deployment using Azure, watch
 
  ## Team(Future Ready Talent)
 
-    **Parul University**
+ ###Parul University
 
  1.Poojan Patel 
     email: [poojanpatel1595@gmail.com](mailto:poojanpatel1595@gmail.com).
