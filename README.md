@@ -67,7 +67,7 @@ To run the website locally, you'll need a web server. You can use a tool like [L
 
 ## Youtube Video
 
-For a detailed explanation of this website and its deployment using Azure, watch the video [here](https://youtube.com).
+For a detailed explanation of this website and its deployment using Azure, watch the video [here](https://youtu.be/1IIKs4xvhI8?feature=shared).
 
 
 ## Team(Future Ready Talent)
