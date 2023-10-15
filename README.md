@@ -6,6 +6,9 @@ This is a static website for event management deployed using Azure services.
 
 This website provides information about events and allows users to register for upcoming events.
 
+## Webiste URL
+   Access the website [here](https://brave-grass-09fa6f710.3.azurestaticapps.net/)
+
 ## Azure Services Used
 
 1. **Azure Static Web App:**
