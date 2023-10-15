@@ -1,16 +1,56 @@
-# Evento.Live
+# Event Management Website
 
-An event management website.
+This is a static website for event management deployed using Azure services.
 
-## Website URL
+## Overview
 
-Access the website [here](https://brave-grass-09fa6f710.3.azurestaticapps.net/).
+This website provides information about events and allows users to register for upcoming events.
 
+## Azure Services Used
+
+1. **Azure Static Web App:**
+   The website is hosted and served using Azure Static Web App.
+
+2. **Azure Storage Account:**
+   CSS, JS, and images are stored in Azure Storage Containers for efficient content delivery.
+
+3. **Azure CDN (Content Delivery Network):**
+   Azure CDN service is used to deliver content, ensuring high availability and performance.
+
+## Azure Resources Screenshots
+
+### Azure Static Web App
+![Azure Static Web App Screenshot]([screenshots/azure_static_web_app.png](http://evento-ccerfqaegthphscc.z01.azurefd.net/images/static))
+
+### Azure Storage Account
+
+- **Azure Storage Account Overview:**
+  Screenshot of the Azure Storage Account.
+
+  ![Azure Storage Account Screenshot](screenshots/azure_storage_account.png)
+
+- **Azure Storage Containers:**
+  Screenshot of Azure Storage Containers used for storing CSS, JS, and images.
+
+  ![Azure Storage Containers Screenshot](screenshots/azure_storage_containers.png)
+
+### Azure CDN
+![Azure CDN Screenshot](screenshots/azure_cdn.png)
+
+### Azure Resource Group
+![Azure Resource Group Screenshot](screenshots/azure_resource_group.png)
 
 ## Project Structure
 
 - `/index.html`: The main HTML file for the website.
-- `/css/`: Contains CSS stylesheets.
-- `/images/`: Includes images used in the website.
+- `/css/`: Contains CSS stylesheets stored in Azure Storage.
+- `/js/`: Contains JavaScript files stored in Azure Storage.
+- `/images/`: Includes images used in the website stored in Azure Storage.
 
+## How to Run Locally
 
+To run the website locally, you'll need a web server. You can use a tool like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in Visual Studio Code.
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
