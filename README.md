@@ -98,7 +98,7 @@ For a detailed explanation of this website and its deployment using Azure, watch
   - Role: UI/UX Designer
   - Responsibilities: Designing user interfaces and user experience.
 
-### Designers
+### Future Ready Screenshot
 
 ![Team_Screenshot](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/team.png)
  
