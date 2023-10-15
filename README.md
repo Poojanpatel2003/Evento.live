@@ -65,5 +65,8 @@ To run the website locally, you'll need a web server. You can use a tool like [L
 3. **Use a web server to serve project locally.**
   
 
+## Youtube Video
+
+For a detailed explanation of this website and its deployment using Azure, watch the video [here](https://youtube.com).
 
  
