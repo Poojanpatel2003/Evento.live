@@ -97,4 +97,9 @@ For a detailed explanation of this website and its deployment using Azure, watch
   - Email: [neelp1478@gmail.com](mailto:neelp1478@gmail.com)
   - Role: UI/UX Designer
   - Responsibilities: Designing user interfaces and user experience.
+ 
+####ScreenShot
+![Team_Screenshot](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/team.png)
+
+
 
