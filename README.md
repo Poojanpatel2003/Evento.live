@@ -1,3 +1,3 @@
-# My Static Website
+# Evento.Live
 
-A simple static website showcasing my portfolio and projects.
+An event management website.
