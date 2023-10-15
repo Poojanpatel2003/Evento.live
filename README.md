@@ -72,6 +72,18 @@ For a detailed explanation of this website and its deployment using Azure, watch
 
  ## Team(Future Ready Talent)
 
+    **Parul University**
+
  1.Poojan Patel 
     email: [poojanpatel1595@gmail.com](mailto:poojanpatel1595@gmail.com).
+
+ 2.Kishan Kumar Vadhia 
+    email: [vadhiakishan@gmail.com](mailto:vadhiakishan@gmail.com).
+    
+ 3.Neel Patel 
+    email: [neelp1478@gmail.com](mailto:neelp1478@gmail.com).
+    
+ 4.Parth Sojitra
+    email: [210305124004@paruluniversity.ac.in](mailto:210305124004@paruluniversity.ac.in).
+    
  
