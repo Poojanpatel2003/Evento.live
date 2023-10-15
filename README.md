@@ -1,4 +1,4 @@
-# Event Management Website
+# Event Management Website (Evento.live)
 
 This is a static website for event management deployed using Azure services.
 
@@ -70,20 +70,31 @@ To run the website locally, you'll need a web server. You can use a tool like [L
 For a detailed explanation of this website and its deployment using Azure, watch the video [here](https://youtube.com).
 
 
- ## Team(Future Ready Talent)
+## Team
 
- Parul University
+### Project Lead
 
- 1.Poojan Patel 
-    email: [poojanpatel1595@gmail.com](mailto:poojanpatel1595@gmail.com).
+- [Poojan Patel](https://github.com/Poojanpatel2003)
+  - Email: [poojanpatel1595@gmail.com](mailto:poojanpatel1595@gmail.com)
+  - Role: Project Lead
+  - Responsibilities: Overall project coordination, decision-making.
 
- 2.Kishan Kumar Vadhia 
-    email: [vadhiakishan@gmail.com](mailto:vadhiakishan@gmail.com).
-    
- 3.Neel Patel 
-    email: [neelp1478@gmail.com](mailto:neelp1478@gmail.com).
-    
- 4.Parth Sojitra
-    email: [210305124004@paruluniversity.ac.in](mailto:210305124004@paruluniversity.ac.in).
-    
- 
+### Developers
+
+- [Kishan Kumar Vadhia](https://github.com/KishanVadhiya)
+  - Email: [vadhiakishan@gmail.com](mailto:vadhiakishan@gmail.com)
+  - Role: Frontend + Azure services
+  - Responsibilities: Design and development of the user interface.
+
+- [Parth Sojitra](https://github.com/parthsojitra31)
+  - Email: [210305124004@paruluniversity.ac.in](mailto:210305124004@paruluniversity.ac.in)
+  - Role: Frontend + Azure services
+  - Responsibilities: Implementation of server-side logic, database management.
+
+### Designers
+
+- [Neel Patel](https://github.com/Neel-1478)
+  - Email: [neelp1478@gmail.com](mailto:neelp1478@gmail.com)
+  - Role: UI/UX Designer
+  - Responsibilities: Designing user interfaces and user experience.
+
