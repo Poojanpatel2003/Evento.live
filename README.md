@@ -27,18 +27,18 @@ This website provides information about events and allows users to register for 
 - **Azure Storage Account Overview:**
   Screenshot of the Azure Storage Account.
 
-  ![Azure Storage Account Screenshot](screenshots/azure_storage_account.png)
+  ![Azure Storage Account Screenshot](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/storage.png)
 
 - **Azure Storage Containers:**
   Screenshot of Azure Storage Containers used for storing CSS, JS, and images.
 
-  ![Azure Storage Containers Screenshot](screenshots/azure_storage_containers.png)
+  ![Azure Storage Containers Screenshot](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/containers.png)
 
 ### Azure CDN
-![Azure CDN Screenshot](screenshots/azure_cdn.png)
+![Azure CDN Screenshot](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/cdn.png)
 
 ### Azure Resource Group
-![Azure Resource Group Screenshot](screenshots/azure_resource_group.png)
+![Azure Resource Group Screenshot](https://evento-ccerfqaegthphscc.z01.azurefd.net/images/reasource.png)
 
 ## Project Structure
 
