@@ -53,4 +53,4 @@ To run the website locally, you'll need a web server. You can use a tool like [L
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/Poojanpatel2003/Evento.live.git
