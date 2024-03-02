@@ -76,19 +76,19 @@ For a detailed explanation of this website and its deployment using Azure, watch
 
 - [Poojan Patel](https://github.com/Poojanpatel2003)
   - Email: [poojanpatel1595@gmail.com](mailto:poojanpatel1595@gmail.com)
-  - Role: Project Lead
+  - Role: Project Lead+Fronted
   - Responsibilities: Overall project coordination, decision-making.
 
 ### Developers
 
 - [Kishan Kumar Vadhia](https://github.com/KishanVadhiya)
   - Email: [vadhiakishan@gmail.com](mailto:vadhiakishan@gmail.com)
-  - Role: Frontend + Azure services
+  - Role:  Azure services
   - Responsibilities: Design and development of the user interface.
 
 - [Parth Sojitra](https://github.com/parthsojitra31)
   - Email: [210305124004@paruluniversity.ac.in](mailto:210305124004@paruluniversity.ac.in)
-  - Role: Frontend + Azure services
+  - Role: Frontend+ Azure services
   - Responsibilities: Implementation of server-side logic, database management.
 
 ### Designers
